@@ -1,0 +1,48 @@
+---
+title: "Green Auto India"
+description: "India-specific automotive LCA database and impact calculation engine — Techfest 2026-27, Challenge 2, Round 1."
+template: splash
+hero:
+  title: Green Auto India
+  tagline: An India-specific Life Cycle Assessment (LCA) database and impact calculation engine for the automotive sector.
+  actions:
+    - text: Read the R1 submission
+      link: /problem/
+      icon: right-arrow
+    - text: See the demo case
+      link: /demo-case/
+      icon: open-book
+---
+
+# Green Auto India: An India-Specific Life Cycle Assessment (LCA) Database & Impact Calculation Engine for the Automotive Sector
+
+**Techfest 2026–27 | Indian Institute of Technology Bombay**  
+**In Partnership with Ministry of Heavy Industries (MHI) & International Centre for Automotive Technology (ICAT)**  
+**Challenge 2: Green Auto India | Round 1: Concept & Implementation Roadmap Submission**
+
+---
+
+## Document Metadata
+
+* **Track:** Challenge 2 — Green Auto India
+* **Submission Round:** Round 1 (Concept & Implementation Roadmap)
+* **Author / Participating Team:** [Team Name / Team ID]
+* **Target Users & Beneficiaries:** Ministry of Heavy Industries (MHI), International Centre for Automotive Technology (ICAT), Automotive Research Association of India (ARAI), Bureau of Energy Efficiency (BEE), NITI Aayog, Indian Automotive OEMs & Tier-1 Suppliers
+* **Governing Standards:** ISO 14040:2006, ISO 14044:2006, ISO 14067:2018, ISO 14083:2023, AIS-129, AIS-039, CMVR 1989, BWMR 2022
+
+---
+
+### Executive Summary
+India's automotive sector is undergoing an unprecedented transition driven by electrification mandates, FAME, and the PM E-DRIVE initiative. However, automotive Life Cycle Assessment (LCA) in India is severely constrained by a systemic dependency on foreign background databases such as ecoinvent (Switzerland), GaBi/Sphera (Germany), and Argonne GREET (USA). These international datasets reflect European and North American industrial realities—clean hydro-dominated power grids, natural-gas-based direct reduced iron (DRI) steelmaking, high-efficiency highway freight logistics, and mechanized closed-loop vehicle recycling.
+
+Applying foreign databases to Indian automotive products introduces distortions of **2× to 5×** in lifecycle carbon accounting:
+1. **Grid Electricity:** CEA Baseline Database v20.0 confirms an Indian national weighted average grid carbon intensity of **0.727 kg CO₂/kWh** (busbar, with renewables), rising to **0.90–1.05 kg CO₂e/kWh** at the wall-socket when accounting for 15–18% Transmission & Distribution (AT&C) losses—nearly **3× higher** than European grid defaults.
+2. **Structural Materials:** Over 40% of India's crude steel relies on coal-based rotary kiln DRI with Induction Furnaces (**2.7–3.2 t CO₂e/t steel**), while primary aluminium smelting relies on dedicated captive coal-fired power plants (**18–24 t CO₂e/t aluminium**)—underestimated by **50% to 400%** in foreign datasets.
+3. **Logistics & Climate:** Congested Indian road logistics operate at **0.055–0.090 kg CO₂e/t-km** for diesel HCVs and **0.140–0.412 kg CO₂e/t-km** for medium/light commercial vehicles (SFC India & TERI, 2026), while ambient operating temperatures of 35–45°C increase real-world EV auxiliary air conditioning loads by **25–35%** over certified laboratory cycles.
+4. **Supply Chain Architecture:** An empirical analysis of Indian OEMs (Tata Motors, Mahindra & Mahindra, Bajaj Auto, Ather Energy) reveals that while structural chassis, closures, and pack assembly are 80–100% localized, battery cells remain **98% imported**, introducing heavy international maritime and domestic multimodal freight legs.
+
+**Green Auto India** is an open, modular, ISO-compliant digital platform comprising an **indigenous automotive LCA database**, a **deterministic TypeScript calculation engine**, and an **interactive decision-support dashboard**. The platform incorporates a 4-tier pedigree data grading framework (Grades A to D), transparent uncertainty bands, and dynamic 2024–2070 grid decarbonization pathways from NITI Aayog (Current Policy Scenario vs. Net Zero Scenario). 
+
+In this Round 1 submission, we define the comprehensive theoretical framework across all CMVR vehicle categories (L, M, N), present a hand-verified worked demonstration case of an Indian **40 kWh NMC811 Battery Electric Vehicle (BEV) pack** yielding **20.24 t CO₂e lifecycle emissions (uncertainty band: 16.1 – 26.8 t CO₂e)** over 150,000 km, and outline a rigorous 4-phase engineering roadmap leading to the Grand Finale at IIT Bombay in December 2026.
+
+---
