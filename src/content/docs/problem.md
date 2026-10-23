@@ -27,6 +27,57 @@ The table below illustrates why using unadjusted foreign background databases pr
 
 ---
 
+The same pattern at a glance — every parameter is understated, none is overstated:
+
+<svg viewBox="0 0 720 380" width="100%" role="img" aria-label="Bar chart of how many times larger Indian lifecycle values are than foreign database assumptions, by parameter" style="font-family: inherit;">
+  <title>Indian reality as a multiple of the foreign assumption, by lifecycle parameter</title>
+  <g stroke="currentColor" stroke-opacity="0.12">
+    <line x1="215" y1="18" x2="215" y2="330" />
+    <line x1="303" y1="18" x2="303" y2="330" />
+    <line x1="391" y1="18" x2="391" y2="330" />
+    <line x1="479" y1="18" x2="479" y2="330" />
+    <line x1="567" y1="18" x2="567" y2="330" />
+    <line x1="655" y1="18" x2="655" y2="330" />
+  </g>
+  <line x1="303" y1="18" x2="303" y2="330" stroke="currentColor" stroke-opacity="0.45" stroke-dasharray="4 4" />
+  <text x="309" y="16" font-size="12" fill="currentColor" opacity="0.7">1.0× = foreign assumption</text>
+  <g font-size="14" fill="currentColor">
+    <text x="200" y="45" text-anchor="end">Primary aluminium</text>
+    <text x="200" y="97" text-anchor="end">Grid electricity (busbar)</text>
+    <text x="200" y="149" text-anchor="end">Real-world use phase</text>
+    <text x="200" y="201" text-anchor="end">Freight logistics</text>
+    <text x="200" y="253" text-anchor="end">Structural steel</text>
+    <text x="200" y="305" text-anchor="end">Grid T&amp;D losses</text>
+  </g>
+  <g style="fill: var(--sl-color-accent);">
+    <rect x="391" y="30" width="264" height="20" rx="5" />
+    <rect x="391" y="82" width="88" height="20" rx="5" />
+    <rect x="329" y="134" width="80" height="20" rx="5" />
+    <rect x="303" y="186" width="88" height="20" rx="5" />
+    <rect x="347" y="238" width="26" height="20" rx="5" />
+    <rect x="313" y="290" width="4" height="20" rx="2" />
+  </g>
+  <g font-size="13" font-weight="600" fill="currentColor">
+    <text x="663" y="45">2.0–5.0×</text>
+    <text x="487" y="97">2.0–3.0×</text>
+    <text x="417" y="149">1.3–2.2×</text>
+    <text x="399" y="201">up to 2.0×</text>
+    <text x="381" y="253">1.5–1.8×</text>
+    <text x="325" y="305">1.12–1.15×</text>
+  </g>
+  <line x1="215" y1="330" x2="655" y2="330" stroke="currentColor" stroke-opacity="0.3" />
+  <g font-size="12" fill="currentColor" opacity="0.7" text-anchor="middle">
+    <text x="215" y="352">0×</text>
+    <text x="303" y="352">1×</text>
+    <text x="391" y="352">2×</text>
+    <text x="479" y="352">3×</text>
+    <text x="567" y="352">4×</text>
+    <text x="655" y="352">5×</text>
+  </g>
+</svg>
+
+*Each bar shows the table's stated distortion range — how many times larger the Indian value is than the foreign assumption. The use-phase bar is derived from the table's own figures (180–260 vs 120–140 Wh/km). Freight's bar shows the maximum stated error; HCV legs overlap foreign values. End-of-life recycling is not plotted: it has no single multiplier, since foreign models award circularity credits that informal Indian recycling does not achieve.*
+
 ### 1.3 Institutional Stakeholder Mapping & Policy Alignment
 Green Auto India is architected to deliver immediate, operational utility to four primary national stakeholder groups:
 
