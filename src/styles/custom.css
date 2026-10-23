@@ -1,0 +1,25 @@
+/* Custom fixes for the Green Auto India docs.
+   Loaded after KaTeX's own stylesheet, so these rules win on conflicts. */
+
+/* --- Math rendering --- */
+/* Display formulas get their own centered block with room to breathe, and
+   scroll sideways instead of overflowing on narrow screens. */
+.sl-markdown-content .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.35em;
+}
+
+/* Never let Starlight's word-breaking leak inside KaTeX's fraction layout. */
+.sl-markdown-content .katex {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* --- Smooth page transitions (Astro View Transitions) --- */
+/* Short cross-fade between pages instead of a hard full-page reload flash. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 180ms;
+  animation-timing-function: ease;
+}

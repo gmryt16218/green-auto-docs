@@ -117,7 +117,9 @@ To ensure mathematical validity across different vehicle classes, three distinct
    * Baseline Lifetime Distances: **150,000 km** for M1 passenger cars; **100,000 km** for L3 electric two-wheelers; **300,000 km** for N1 light commercial vehicles; **500,000–1,000,000 km** for M3 transit buses.
 2. **Component Benchmark FU:** *"1 kWh of nominal energy storage capacity manufactured and assembled into an automotive traction battery pack."*
 3. **Regulatory Battery FU (EU 2023/1542 Harmonized):** *"1 kWh of total cumulative energy delivered by the battery system over its full operational service life,"* defined as:
-   $$E_{\text{delivered}} = C_{\text{nom}} \times DoD \times N_{\text{cycles}} \times \eta_{\text{roundtrip}}$$
+   $$
+   E_{\text{delivered}} = C_{\text{nom}} \times DoD \times N_{\text{cycles}} \times \eta_{\text{roundtrip}}
+   $$
 
 ---
 

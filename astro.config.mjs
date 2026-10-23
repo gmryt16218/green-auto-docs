@@ -9,7 +9,10 @@ export default defineConfig({
       title: 'Green Auto India',
       description:
         'India-specific automotive LCA database and impact calculation engine — Techfest 2026–27, Challenge 2, Round 1.',
-      customCss: ['katex/dist/katex.min.css'],
+      customCss: ['katex/dist/katex.min.css', './src/styles/custom.css'],
+      components: {
+        Head: './src/components/Head.astro',
+      },
       sidebar: [
         { label: 'Problem Understanding', slug: 'problem' },
         { label: 'Scope & System Boundaries', slug: 'scope' },
